@@ -1,0 +1,47 @@
+/* box */
+#box{
+    background-color: rgb(255, 0, 85);
+    border: 2px solid black;
+    width: 385px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Buttons */
+button{
+    height: 70px;
+    width: 70px;
+    font-size:25px;
+    font-family:  'Arial Narrow Bold', sans-serif;
+    margin:10px;
+    background-color: rgb(30, 255, 0);
+    color: rgb(14, 42, 42);
+    text-align: center;
+}
+button:hover{background-color: rgb(80, 180, 22); color:black; cursor: pointer;}
+
+
+/* screen */
+
+#screen{
+    background-color:rgba(0, 204, 255, 0.637) ;
+    height: 40px;
+    width: 330px;
+    margin: 12px;
+    padding: 10px;
+    color: white;
+    font-size: 25px;
+    text-align: start;
+}
+
+/* rest */
+h5{
+    text-align: center;
+    font-size: 20px;
+    padding: 0px;
+    margin: 3px;
+    border-bottom:3px solid black ;
+}
